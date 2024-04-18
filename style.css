@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+@font-face {
+    font-family: "Okashi^";
+    src: url(OkashiFont.ttf);
+}
+body {
+    height: 100vh;
+}
+
+#linha_topo {
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+    top: 0;
+}
+
+#topo {
+    background-color: #F5E1BE;
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: Black;
+}
+#topo #logo {
+    width: 120px;
+    height: 120px;
+    background-color: white;
+    margin-right: 5%;
+}
+#topo h1 {
+    font-size: 30px;
+    font-family: "Okashi^";
+}
+
+#menu {
+    background-color: darkred;
+    display: flex;
+    justify-content: center;
+}
+#menu ul {
+    list-style: none;
+}
+#menu ul li {
+    display: inline;
+}
+#menu ul li a {
+    display: inline-block;
+    padding: 10px 20px;
+    color: rgb(244, 235, 235);
+    font-family: "Okashi^";
+}
+#menu ul li a:hover {
+    background-color:white;
+    color: black;
+}
+#parte1 {
+    height: 100vh;
+    background-color: white;
+    padding-top: 200px;
+    
+}
+#parte2 {
+    height: 100vh;
+    background-color: white;
+    padding-top: 200px;
+   
+}
+#parte3 {
+    height: 100vh;
+    background-color: white;
+    padding-top: 200px;
+    
+}
+#parte4 {
+    height: 100vh;
+    background-color: white;
+    padding-top: 200px;
+    padding-bottom: 85vh;
+    
+}
+#rodape {
+    height: 150px;
+    background-color: #F5E1BE;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+#logo img {
+    height: 100%;
+    width: 100%;
+}
+#menusushi, #menusashimi, #menupratosquentes, #menubebidas {
+    font-family: "Okashi^";
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#menu-item {
+    background-color: #fff;
+    border: 1px solid #eee;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px;
+    width: 300px;
+    text-align: center;
+}
+#menu-item h3 {
+    margin-top: 0;
+}
+#conteudo4 {
+    font-family: "Okashi^";
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.card {
+    width: 340px;
+    height: 500px;
+    border: 1px solid black;   
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px #de6666db;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card:hover {
+    transform: scale(1.02);
+    transition: all 0.7s cubic-bezier(0, 0, .5, 1)
+}
+
+.card:not(:hover) {
+    transform: scale(1.);
+    transition: all 0.7s cubic-bezier(0, 0, .5, 1)
+}
+.card figure {
+    width: 290px;
+    height: 290px;
+    background-color: azure;
+    border-radius: 20px;
+}
+.card figure img {
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+}
+.card .preco {
+   text-align: right;
+   padding-right: 40px;
+   padding-top: 20px;
+   font-size: 30px;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.redes-sociais {
+    display: flex;
+    align-items: right;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+.redes-sociais img {
+    width: 40px;
+    height: 30px;
+    margin-right: 10px;
+}
